@@ -31,13 +31,13 @@ const headerHtml = `<header id="main-nav-container" class="fixed top-0 left-0 ri
         <svg id="menu-open-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
         </svg>
-        <svg id="menu-close-icon" class="w-6 h-6 hidden" style="display:none;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg id="menu-close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
         </svg>
       </button>
     </div>
     <div id="mobile-menu-backdrop" class="mobile-menu-backdrop lg:hidden rounded-full"></div>
-    <div id="mobile-menu" class="mobile-menu-panel hidden lg:hidden" style="display:none;" aria-hidden="true">
+    <div id="mobile-menu" class="mobile-menu-panel hidden lg:hidden" aria-hidden="true">
       <div class="mobile-menu-links">
         <a href="/" class="mobile-menu-link">Home</a>
         <a href="/tools" class="mobile-menu-link">Tools</a>
