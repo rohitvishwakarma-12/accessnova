@@ -197,27 +197,10 @@ export function SiteLayout({
         />
         <link rel="canonical" href="https://accessnovaa.com" />
         <link rel="icon" href="/logo.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-        />
         <link rel="stylesheet" href="/css/style.css" />
         <style>{globalStyles}</style>
       </Head>
 
-      <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
-      <Script
-        src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
-        strategy="beforeInteractive"
-      />
       <Script id="site-shell-script" strategy="afterInteractive">
         {globalScript}
       </Script>
