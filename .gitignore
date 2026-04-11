@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Next.js
+.next/
+out/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+__MACOSX/
+Thumbs.db
+*.tmp
+
+# Testing
+.jest/
+coverage/
+
+# Build artifacts
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
