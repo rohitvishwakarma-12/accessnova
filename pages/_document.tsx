@@ -26,6 +26,8 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
+        {/* Static site styles */}
+        <link rel="stylesheet" href="/css/style.css" />
         {/* Swiper JS - deferred so it does not block render */}
         <script
           defer
