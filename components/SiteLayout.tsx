@@ -198,7 +198,10 @@ export function SiteLayout({
         />
         <meta property="og:url" content="https://accessnovaa.com" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AccessNovaa - Digital Accessibility" />
+        <meta
+          name="twitter:title"
+          content="AccessNovaa - Digital Accessibility"
+        />
         <meta
           name="twitter:description"
           content="Making PDFs accessible for everyone"
