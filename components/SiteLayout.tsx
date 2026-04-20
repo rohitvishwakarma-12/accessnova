@@ -205,7 +205,6 @@ export function SiteLayout({
         />
         <link rel="canonical" href="https://accessnovaa.com" />
         <link rel="icon" href="/logo.png" />
-        <link rel="stylesheet" href="/css/style.css" />
         <style>{globalStyles}</style>
       </Head>
 
