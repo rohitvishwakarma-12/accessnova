@@ -145,7 +145,7 @@ const footerHtml = `<footer class="bg-[#050110] text-slate-400 py-16 border-t bo
     <button onclick="toggleChat()" aria-label="Close">✕</button>
   </div>
   <div class="chat-body" id="chatBody">
-    <div class="chat-msg bot">Hi! 👋 I'm <strong>AccessNovaa AI Assistant</strong>. I specialize in <strong>PDF Accessibility</strong>, <strong>WCAG Guidelines</strong>, and <strong>Web &amp; Mobile Development</strong>. How can I help you today?</div>
+    <div class="chat-msg bot">Hi! 👋 I'm <strong>AccessNovaa AI Assistant</strong>. I specialize in <strong>Digital Accessibility</strong>, <strong>WCAG Guidelines</strong>, and <strong>Web &amp; Mobile Development</strong>. How can I help you today?</div>
     <div class="quick-starts">
       <button class="qs-btn" onclick="quickAsk('What is WCAG?')">What is WCAG?</button>
       <button class="qs-btn" onclick="quickAsk('PDF remediation services?')">PDF Remediation?</button>
@@ -173,7 +173,7 @@ export function SiteLayout({
   return (
     <>
       <Head>
-        <title>{`${title} - AccessNovaa | PDF Accessibility & WCAG Compliance`}</title>
+        <title>{`${title} - AccessNovaa | Digital Accessibility & WCAG Compliance`}</title>
         <meta charSet="UTF-8" />
         <meta
           name="viewport"
@@ -182,7 +182,7 @@ export function SiteLayout({
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta
           name="description"
-          content="AccessNovaa - Professional PDF accessibility services, WCAG compliance, and digital accessibility solutions. Expert PDF remediation, audits & consulting."
+          content="AccessNovaa - Professional digital accessibility services, WCAG compliance, and inclusive solutions. Expert PDF remediation, audits & consulting."
         />
         <meta
           name="keywords"
@@ -198,7 +198,7 @@ export function SiteLayout({
         />
         <meta property="og:url" content="https://accessnovaa.com" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AccessNovaa - PDF Accessibility" />
+        <meta name="twitter:title" content="AccessNovaa - Digital Accessibility" />
         <meta
           name="twitter:description"
           content="Making PDFs accessible for everyone"
