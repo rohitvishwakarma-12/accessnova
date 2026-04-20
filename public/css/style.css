@@ -86,9 +86,19 @@
   animation: logoFloat var(--duration-slow) ease-in-out 1;
 }
 
-/* LOGO IMAGE HIDDEN */
+/* LOGO IMAGE */
 .logo-img {
-  display: none;
+  display: block;
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(219, 39, 119, 0.35));
+  transition: opacity 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.04);
+  filter: drop-shadow(0 0 12px rgba(219, 39, 119, 0.6));
 }
 
 /* LOGO TEXT - Branded Typography */
