@@ -43,10 +43,14 @@ export async function getChatReply(
   userMessage: string,
 ): Promise<{ reply: string }> {
   // Support both variable names for flexibility
-  const apiKey = (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)?.trim().replace(/^['"]|['"]$/g, '');
+  const apiKey = (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)
+    ?.trim()
+    .replace(/^['"]|['"]$/g, '');
 
   if (!apiKey) {
-    throw new Error('Neither GEMINI_API_KEY nor GOOGLE_API_KEY is defined in environment variables');
+    throw new Error(
+      'Neither GEMINI_API_KEY nor GOOGLE_API_KEY is defined in environment variables',
+    );
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
