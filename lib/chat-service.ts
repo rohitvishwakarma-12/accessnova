@@ -42,10 +42,11 @@ function isRetryableError(error: unknown) {
 export async function getChatReply(
   userMessage: string,
 ): Promise<{ reply: string }> {
-  const apiKey = process.env.GOOGLE_API_KEY?.trim().replace(/^['"]|['"]$/g, '');
+  // Support both variable names for flexibility
+  const apiKey = (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)?.trim().replace(/^['"]|['"]$/g, '');
 
   if (!apiKey) {
-    throw new Error('GOOGLE_API_KEY is not defined in environment variables');
+    throw new Error('Neither GEMINI_API_KEY nor GOOGLE_API_KEY is defined in environment variables');
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
